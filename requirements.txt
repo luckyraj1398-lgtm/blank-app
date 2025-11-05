@@ -1,1 +1,12 @@
 streamlit
+cat > requirements.txt <<'EOF'
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+aiofiles
+boto3
+moviepy
+ffmpeg-python
+requests
+EOF
